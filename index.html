@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href ="calculator.css">
-    <link rel="stylesheet" href="calculator.js">
+    <title>Mathsmith</title>
+    <link rel="stylesheet" href="calculator.css">
+
 </head>
+
 <body>
-    <h1>Mathsmith</h1>
-    <h2>Let's try some basic calculations!</h2>
+    <h4><em>Let's try some basic calculations!</em></h4>
+    <div class="calculator__main">
         <table>
             <tr>
-                <td>C</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="calc_input">C</td>
+                <td class="output" colspan="3"> </td>
             </tr>
             <tr>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
+                <td class="calc_input">7</td>
+                <td class="calc_input">8</td>
+                <td class="calc_input">9</td>
                 <td class="operations">/</td>
             </tr>
             <tr>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td class="operations">X</td>
+                <td class="calc_input">4</td>
+                <td class="calc_input">5</td>
+                <td class="calc_input">6</td>
+                <td class="operations">x</td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
+                <td class="calc_input">1</td>
+                <td class="calc_input">2</td>
+                <td class="calc_input">3</td>
                 <td class="operations">-</td>
             </tr>
             <tr>
-                <td>0</td>
-                <td>.</td>
-                <td>=</td>
+                <td class="calc_input">0</td>
+                <td class="calc_input">.</td>
+                <td class="calc_input">=</td>
                 <td class="operations">+</td>
             </tr>
         </table>
+    </div>
+    <script src="/script.js" href="calculator.js"></script>
 </body>
+
 </html>

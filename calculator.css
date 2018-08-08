@@ -5,10 +5,30 @@
 }
 
 body {
-    background: #15BDF7;
-    border: 5px solid black;
+    /* display: grid
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20%; */
+    background: #6F7172;
+    font-size: 24px;
+}
+/* Calculator style */
+.calculator__main{
+    max-width: 85%;
+    font-size: 64px;
 }
 
 .operations {
     background: #8BDAF6;
+    border: 2px solid black;
 }
+
+.output{
+    background: #8BDAF6;
+    border: .5px solid black;
+}
+
+.calc_input {
+    border: .5px solid black;
+    background: #4496B3;
+}
+
