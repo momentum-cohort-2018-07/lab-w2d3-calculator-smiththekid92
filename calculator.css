@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #15BDF7;
+    border: 5px solid black;
+}
+
+.operations {
+    background: #8BDAF6;
+}
