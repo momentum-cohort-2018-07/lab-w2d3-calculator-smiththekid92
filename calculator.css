@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: auto;
-    padding: 0px;
 }
 
 body {
@@ -24,19 +23,16 @@ body {
     background: #8BDAF6;
     border: 2px solid black;
     font-size: 72px;
+    padding: 0px;
 }
 
-.output{
-    background: #8BDAF6;
-    border: .5px solid black;
-}
-
-.calc_input {
+.calc_input_clear, .calc_input7, .calc_input8, .calc_input9, .operationsdiv, .calc_input4, .calc_input5, .calc_input6, .operationsmulti, .calc_input1, .calc_input2, .calc_input3, .operationssub, .calc_input0, .calc_inputdot, .calc_inputequal, .operationsplus {
     width: 150px;
     border: .5px solid black;
     background: #4496B3;
     font-size: 72px;
     margin: 0;
+    padding: 0px;
 }
 
 .calc_text{
