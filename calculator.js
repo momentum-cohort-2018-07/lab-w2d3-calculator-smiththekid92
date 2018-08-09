@@ -2,7 +2,7 @@
 
 document.getElementById('clear')
 .addEventListener('click', function(){
-    document.querySelector('.calc_text') .innerText += ""
+    document.querySelector('.calc_text') .innerText = ""
 })
 
 document.querySelector('.calc_input7')
@@ -77,7 +77,7 @@ document.getElementById('dot')
 
 document.getElementById('equal')
 .addEventListener('click', function(){
-    document.querySelector('.calc_text') .innerText += "="
+    document.querySelector('.calc_text') .innerText = eval (document.querySelector('.calc_text').innerText)
 })
 
 document.getElementById('plus')
