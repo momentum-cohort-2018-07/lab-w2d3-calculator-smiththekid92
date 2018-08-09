@@ -36,8 +36,12 @@ body {
 }
 
 .calc_text{
+    /* width: 350px; */
+    height: 80px;
     background: #4496B3;
     border: .5px solid black;  
     font-size: 64px;  
+    padding-top: 2px;
+    padding-left: 5px;
 }
 

@@ -12,27 +12,31 @@
 
 <body>
     <h1>Mathsmith</h1>
-    <h4><em>Let's try some basic calculations!</em></h4>
+    <h4>
+        <em>Let's try some basic calculations!</em>
+    </h4>
     <br/>
     <div class="calculator__main">
-                <button class="calc_input_clear">C</button>
-                <div class="calc_text" colspan="3"></div>
-                <button class="calc_input7">7</button>
-                <button class="calc_input8">8</button>
-                <button class="calc_input9">9</button>
-                <button class="operationsdiv">/</button>
-                <button class="calc_input4">4</button>
-                <button class="calc_input5">5</button>
-                <button class="calc_input6">6</button>
-                <button class="operationsmulti">*</button>
-                <button class="calc_input1">1</button>
-                <button class="calc_input2">2</button>
-                <button class="calc_input3">3</button>
-                <button class="operationssub">-</button>
-                <button class="calc_input0">0</button>
-                <button class="calc_inputdot">.</button>
-                <button class="calc_inputequal">=</button>
-                <button class="operationsplus">+</button>
+        <div class="calc_top">
+            <button class="calc_input_clear" id="clear">C</button>
+            <div class="calc_text" colspan="3"></div>
+        </div>
+        <button class="calc_input7">7</button>
+        <button class="calc_input8">8</button>
+        <button class="calc_input9">9</button>
+        <button class="operationsdiv" id="division">/</button>
+        <button class="calc_input4">4</button>
+        <button class="calc_input5">5</button>
+        <button class="calc_input6">6</button>
+        <button class="operationsmulti" id="multiplication">*</button>
+        <button class="calc_input1">1</button>
+        <button class="calc_input2">2</button>
+        <button class="calc_input3">3</button>
+        <button class="operationssub" id="subtraction">-</button>
+        <button class="calc_input0">0</button>
+        <button class="calc_inputdot" id="dot">.</button>
+        <button class="calc_inputequal" id="equal">=</button>
+        <button class="operationsplus" id="plus">+</button>
     </div>
     <script src="calculator.js"></script>
 </body>

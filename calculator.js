@@ -1,82 +1,86 @@
-//can use debugger in place of break
-//at least get something to run in console
+//
 
-var seven = document.querySelector('.calc_input7');
-seven.addEventListener('click', function(){
-    console.log('7')
+document.getElementById('clear')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += ""
 })
 
-var eight = document.querySelector('.calc_input8');
-eight.addEventListener('click', function(){
-    console.log('8')
+document.querySelector('.calc_input7')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 7
 })
 
-var nine = document.querySelector('.calc_input9');
-nine.addEventListener('click', function(){
-    console.log('9')
+document.querySelector('.calc_input8')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 8
 })
 
-var div = document.querySelector('.operationsdiv');
-div.addEventListener('click', function(){
-    console.log('/')
+document.querySelector('.calc_input9')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 9
 })
 
-var four = document.querySelector('.calc_input4');
-four.addEventListener('click', function(){
-    console.log('4')
+document.getElementById('division')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += "/"
 })
 
-var five = document.querySelector('.calc_input5');
-five.addEventListener('click', function(){
-    console.log('5')
+document.querySelector('.calc_input4')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 4
 })
 
-var six = document.querySelector('.calc_input6');
-six.addEventListener('click', function(){
-    console.log('6')
+document.querySelector('.calc_input5')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 5
 })
 
-var multi = document.querySelector('.operationsmulti');
-multi.addEventListener('click', function(){
-    console.log('X')
+document.querySelector('.calc_input6')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 6
 })
 
-var one = document.querySelector('.calc_input1');
-one.addEventListener('click', function(){
-    console.log('1')
+document.getElementById('multiplication')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += "*"
 })
 
-var two = document.querySelector('.calc_input2');
-two.addEventListener('click', function(){
-    console.log('2')
+document.querySelector('.calc_input1')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 1
 })
 
-var three = document.querySelector('.calc_input3');
-three.addEventListener('click', function(){
-    console.log('3')
+document.querySelector('.calc_input2')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 2
 })
 
-var sub = document.querySelector('.operationssub');
-sub.addEventListener('click', function(){
-    console.log('-')
+document.querySelector('.calc_input3')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 3
 })
 
-var zero = document.querySelector('.calc_input0');
-zero.addEventListener('click', function(){
-    console.log('0')
+document.getElementById('subtraction')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += "-"
 })
 
-var dot = document.querySelector('.calc_inputdot');
-dot.addEventListener('click', function(){
-    console.log('.')
+document.querySelector('.calc_input0')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += 0
 })
 
-var equ = document.querySelector('.calc_inputequal');
-equ.addEventListener('click', function(){
-    console.log('=')
+document.getElementById('dot')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += "."
 })
 
-var plus = document.querySelector('.operationsplus');
-plus.addEventListener('click', function(){
-    console.log('=')
+document.getElementById('equal')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += "="
+})
+
+document.getElementById('plus')
+.addEventListener('click', function(){
+    document.querySelector('.calc_text') .innerText += "+"
 })
